@@ -33,3 +33,10 @@ function gymfitness_script() {
     wp_enqueue_script('scripts', get_template_directory_uri() . "/js/scripts.js", array('jquery'), '1.0.0', true);
 }
 add_action('wp_enqueue_scripts', 'gymfitness_script');
+//Enable feaute images and other stuff
+function gymfitness_setup(){
+
+    //Add featured image
+    add_theme_support('post-thumbnails');
+}
+add_action('after_setup_theme','gymfitness_setup'); //when the theme is activated and ready
