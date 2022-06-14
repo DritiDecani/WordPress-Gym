@@ -37,7 +37,7 @@ if ( ! class_exists( 'TwentyTwenty_Non_Latin_Languages' ) ) {
 			 *
 			 * @since Twenty Twenty 1.0
 			 *
-			 * @param array $font_family An array of locales and font families.
+			 * @param array $font_family An array of locales and font families
 			 */
 			$font_family = apply_filters(
 				'twentytwenty_get_localized_font_family_types',
