@@ -4,7 +4,7 @@
 Template Name:Page with sidebar
 */
  get_header(); ?>
-  <mainS class="container page section with-sidebar">
+  <main class="container page section with-sidebar">
      <div class="page-content">
      <?php while(have_posts()): the_post(); ?>
         <h1 class="text-center text-primary"><?php the_title(); ?></h1>
@@ -23,7 +23,7 @@ Template Name:Page with sidebar
     <aside class="sidebar">
         <h2>SideBar here</h2>
     </aside>
-  </mainS
+    </main>
    
 
 <?php get_footer(); ?>
