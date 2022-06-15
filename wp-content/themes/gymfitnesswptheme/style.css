@@ -126,7 +126,7 @@ img {
 }
 .main-menu a {
     color: var(--primary);
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     font-family: var(--mainFont);
     padding: .5rem 2rem;
 }
