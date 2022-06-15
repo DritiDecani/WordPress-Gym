@@ -19,10 +19,8 @@ Template Name:Page with sidebar
         
        
     <?php endwhile; ?>
-     S</div>
-    <aside class="sidebar">
-        <h2>SideBar here</h2>
-    </aside>
+     </div>
+    <?php get_sidebar(); ?>
     </main>
    
 
