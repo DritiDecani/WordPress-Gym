@@ -35,7 +35,12 @@ function gymfitness_script() {
 add_action('wp_enqueue_scripts', 'gymfitness_script');
 //Enable feaute images and other stuff
 function gymfitness_setup(){
-
+   //Register ne image size
+    add_image_size('square',350,350,true);
+    add_image_size('portrait',350,724,true);
+    add_image_size('box',400,375,true);
+    add_image_size('mediumSize',700,400,true);
+    add_image_size('blog',966,644,true);
     //Add featured image
     add_theme_support('post-thumbnails');
 }
