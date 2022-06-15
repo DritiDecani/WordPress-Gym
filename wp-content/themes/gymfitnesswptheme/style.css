@@ -207,3 +207,17 @@ img {
     max-width: 88rem;
     margin: 0auto;
 }
+/*Page with sidebars*/
+@media(min-width:768px){
+    .page.with-sidebar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .with-sidebar .page-content{
+        flex:0 0 calc(60% - 2rem);
+    }
+    .with-sidebar .sidebar{
+        flex:0 0 calc(40% - 2rem);
+    }
+}
+
