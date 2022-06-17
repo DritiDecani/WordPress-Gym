@@ -126,7 +126,7 @@ img {
 }
 .main-menu a {
     color: var(--primary);
-    font-size: 2.3rem;
+    font-size: 2.2rem;
     font-family: var(--mainFont);
     padding: .5rem 2rem;
 }
@@ -220,4 +220,3 @@ img {
         flex:0 0 calc(40% - 2rem);
     }
 }
-
