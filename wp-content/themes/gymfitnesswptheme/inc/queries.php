@@ -22,7 +22,8 @@ function gymfitness_classes_list(){ ?>
                     $start_time = get_field('start_time');
                     $end_time = get_field('end_time');
                 ?>
-                <p><?php echo the_field('class_days'). ' - ' .  $start_time ." to ". $end_time ?></p>
+                <p><?php echo the_field('class_days'). ' - ' .  
+                $start_time ." to ". $end_time ?></p>
                 
             </div>
         
