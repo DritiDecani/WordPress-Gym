@@ -8,7 +8,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> >
 
     <header class="site-header">
         <div class="container header-grid">
@@ -33,6 +33,10 @@
             </div>
             <!--.navigation-bar-->
 
+            <div class="tagline text-center">
+                <h1><?php the_field('hero_tagline'); ?></h1>
+                <p><?php the_field('hero_content'); ?></p>
+            </div>
         </div>
         <!--.container-->
 
