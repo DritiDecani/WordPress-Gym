@@ -72,8 +72,11 @@ function gymfitness_setup()
 
     //Add featured image
     add_theme_support('post-thumbnails');
+
+    //Seo Titles
+    add_theme_support('tittle-tag');
 }
-add_action('after_setup_theme', 'gymfitness_setup'); //when the theme is activated and ready
+add_action('after_setup_theme', 'gymfitness_setup'); //when the theme is activated and ready!
 
 //Crates a widget zone
 function gymfitness_widgets()

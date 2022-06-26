@@ -9,7 +9,10 @@
         <?php echo category_description($category->ID)?>
     </div>
     <p class="text-center"></p>
+    <ul class="blog-entries">
+    <?php while (have_posts()) : the_post(); ?>
     <?php get_template_part('template-parts/blog','loop');?>
-</main>
+    <?php endwhile; ?>
+    </ul>
 
 <?php get_footer();?>
